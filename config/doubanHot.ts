@@ -4,8 +4,8 @@
  */
 
 export const DOUBAN_HOT_SOURCES = [
-  { id: "douban-top250", label: "豆瓣电影", route: "douban-top250", type: "Top250" },
-  { id: "douban-movie", label: "豆瓣电影", route: "douban-movie", type: "新片榜" },
-  { id: "douban-weekly", label: "豆瓣电影", route: "douban-weekly", type: "口碑榜" },
-  { id: "douban-us-box", label: "豆瓣电影", route: "douban-us-box", type: "北美票房" },
+  { id: "douban-top250", label: "电影", route: "douban-top250", type: "Top250" },
+  { id: "douban-movie", label: "电影", route: "douban-movie", type: "新片榜" },
+  { id: "douban-weekly", label: "电影", route: "douban-weekly", type: "口碑榜" },
+  { id: "douban-us-box", label: "电影", route: "douban-us-box", type: "北美票房" },
 ] as const;
